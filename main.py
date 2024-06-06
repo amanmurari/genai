@@ -6,7 +6,7 @@ from langserve import add_routes
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_groq import ChatGroq
 
-key="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"
+key="aman"
 os.environ["GROQ_API_KEY"]=key
 app = FastAPI(
     title="LangChain Server",
