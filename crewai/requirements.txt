@@ -1,0 +1,6 @@
+crewai
+langchain
+Langchain-groq
+browserbase
+langchain-community
+'crewai[tools]'
