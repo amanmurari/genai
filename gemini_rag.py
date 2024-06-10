@@ -11,8 +11,8 @@ from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from dotenv import load_dotenv
 import os
 
-key = "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"
-GOOGLE_API_KEY = "AIzaSyAwhodBW_KpkMRJdikkAiAGIrotBihe7K0"
+key = "aman"
+GOOGLE_API_KEY = "aman"
 client = ChatGroq(groq_api_key=key, model="llama3-70b-8192")
 
 prompt = ChatPromptTemplate.from_template("""
